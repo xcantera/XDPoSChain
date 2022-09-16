@@ -22,8 +22,11 @@ import (
 	"math/big"
 
 	"github.com/XinFinOrg/XDPoSChain/common"
+         cmath "github.com/ethereum/go-ethereum/common/math"
+        "github.com/ethereum/go-ethereum/core/types"
 	"github.com/XinFinOrg/XDPoSChain/core/vm"
 	"github.com/XinFinOrg/XDPoSChain/log"
+        "github.com/ethereum/go-ethereum/crypto"
 	"github.com/XinFinOrg/XDPoSChain/params"
 )
 
